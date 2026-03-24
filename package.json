@@ -1,0 +1,38 @@
+{
+  "name": "data-size-parser",
+  "version": "0.1.0",
+  "description": "Parse human-readable data sizes like 10MB, 2gb, and 1.5 TiB into bytes.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "bytes",
+    "parser",
+    "data size",
+    "filesize",
+    "units",
+    "storage",
+    "mb",
+    "gb",
+    "binary units",
+    "decimal units"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonhimpfen/data-size-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brandonhimpfen/data-size-parser/issues"
+  },
+  "homepage": "https://github.com/brandonhimpfen/data-size-parser#readme",
+  "author": "Brandon Himpfen",
+  "license": "MIT"
+}
